@@ -36,6 +36,7 @@
             # Activate the virtual environment
             source .venv/bin/activate
 
+            touch requirements.txt
             pip install -r requirements.txt
           '';
         };
